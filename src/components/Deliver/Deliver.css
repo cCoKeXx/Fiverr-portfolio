@@ -34,12 +34,10 @@
 /* Tablet styleing */
 @media screen and (max-width: 768px) {
     .deliver{
-        margin: 0;
-        height: 100vh;
+        margin: 20rem 0 !important;
         display: flex;
         justify-content: center;
         flex-direction: column;
-        border: 1px solid red;
         background-image: url(../../assets/images/planes_phone.png);
         background-size: 100%;
         background-repeat: repeat-y;

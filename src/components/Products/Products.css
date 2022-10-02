@@ -75,13 +75,11 @@
 /* Tablet dimensions */
 @media screen and (max-width: 768px){
     .products{
-        margin: 0;
+        margin: 20rem 0 !important;
         padding: 0;
         margin:0;
-        height:100vh;
         justify-content: center;
         align-items: center;
-        border: 1px solid red;
     }
     .swiper-button-next,.swiper-button-prev{
         display: none !important;

@@ -70,11 +70,9 @@
 /* Tablet dimensions */
 @media screen and (max-width: 768px){
     .footer{
-        margin: 0;
+        margin: 20rem 0 !important;
         flex-direction: column;
-        height: 100vh;
         justify-content: center;
-        border: 1px solid red;
         gap:1rem;
     }
     .f-left{
