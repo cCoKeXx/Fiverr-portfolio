@@ -1,0 +1,102 @@
+
+.content{
+    display: flex;
+    flex-direction: column;
+    margin: auto 0;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.content>:nth-child(1){
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 634;
+    font-size: 5rem;
+    text-align: center;
+    color: var(--white);
+    margin:0;
+    
+}
+.content>:nth-child(1) span{
+    background: var(--gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 634;
+    font-size: 5rem;
+  
+}
+.content>:nth-child(2){
+    margin: 0;
+    width: 30vw;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.3rem;
+    text-align: center;
+    color: #FFFFFE;
+   
+}
+.content>:nth-child(2) span{
+    font-weight: 700;
+    font-size:1.3rem;
+}
+.content-break{
+    display: none;
+}
+.h-button{
+    padding:0.7vw 6vw;
+    border-radius: 40px;
+    font-size: 1.3rem;
+    font-weight:400;
+    font-family: Arial;
+}
+.h-arrow{
+    margin-top:1rem;
+    transform: scale(3);
+ 
+}
+/* Laptop dimensions */
+@media screen and (max-width: 1024px) {
+    .content>:nth-child(2){
+        width:60vw;
+    }
+    .h-button{
+        margin-top: 5rem;
+        padding:1.5vw 6vw;
+    }
+}
+/* Tablet dimensions */
+
+
+
+
+
+
+/* Phone dimensions */
+@media screen and (max-width: 425px){
+    .content-break{
+        display: block;
+    }
+    .content>:nth-child(1){
+        font-size:2.5rem ;
+    }
+    .content>:nth-child(1) span{
+        font-size:2.5rem ;
+    }
+    .content>:nth-child(2){
+        font-size:0.938rem;
+    }
+    .content>:nth-child(2) span{
+        font-size:0.938rem;
+    }
+    .h-button{
+        font-size:0.938rem;
+    }
+    .h-arrow{
+        transform: scale(2);
+    }
+}

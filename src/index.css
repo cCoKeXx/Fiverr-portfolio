@@ -1,0 +1,15 @@
+@font-face{
+  font-family: "Clash Display Variable";
+  src: url(./assets/fonts/ClashDisplay-Variable.ttf);
+}
+
+body{
+  margin: 0;
+  background-color: #16161A ;
+  color: var(--white);
+}
+*{
+  font-family: "Arial";
+  font-weight: normal;
+  font-size: 16px;
+}

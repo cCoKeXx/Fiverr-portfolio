@@ -1,0 +1,52 @@
+.deliver-component{
+    display: flex;
+    flex-direction: column;
+    width:20vw;
+    padding: 1rem;
+    background-color: var(--black);
+}
+.deliver-component>:nth-child(1){
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.188rem;
+    background: var(--gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.deliver-component>:nth-child(2){
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 564;
+    font-size: 2.188rem;
+    color: #FFFFFE;
+
+}
+.deliver-component>:nth-child(3){
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.313rem;
+    color: #94A1B2;
+
+}
+/* Tablet styles */
+@media screen and (max-width: 768px){
+    .deliver-component{
+        width: 40vw;
+        margin: 2rem 0;
+    }
+}
+@media screen and (max-width: 425px){
+    .deliver-component>:nth-child(1){
+        font-size: 1.125rem;
+    }
+    .deliver-component>:nth-child(2){
+        font-size: 1.125rem;
+    }
+    .deliver-component>:nth-child(3){
+        font-size:0.938rem;
+    }
+}

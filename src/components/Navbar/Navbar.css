@@ -1,0 +1,45 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    position: absolute;
+    flex-direction: column;
+}
+.navbar span:first-child {
+    white-space: nowrap;
+}
+.navbar b {
+    flex: 1 0 0;
+    min-height: 25px;
+    background: var(--white);
+    margin: 1rem 0;
+    width:3px;
+}
+
+.nav-links{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    
+}
+.nav-links>*{
+    font-size: 2rem;
+}
+.n-logo{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+/* Tablet dimensions */
+@media screen and (max-width: 768px ){
+  
+}
+
+
+
+/* Phone dimensions */
+@media screen and (max-width: 425px ){
+    .navbar b{
+        width:1px;
+    }
+}

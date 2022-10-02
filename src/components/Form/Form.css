@@ -1,0 +1,81 @@
+form{
+    width:40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #2B2B32;
+    border-radius: 20px;
+    padding: 2rem 2.5rem;
+    gap:2rem;
+    position: relative;
+
+}
+form>:nth-child(1){
+    font-family: 'Clash Display Variable';
+    font-style: normal;
+    font-weight: 564;
+    font-size: 2.188rem;
+    color: #FFFFFE;
+
+}
+form>:nth-child(2){
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.313rem;
+    line-height: 23px;
+    color: #94A1B2;
+}
+input{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid white;
+    font-size: 1.313rem;
+}
+.f-button{
+    padding: 0.5rem 0;
+    margin-top: 2rem;
+}
+
+/* Positioning background elements */
+.box-decor{
+    position: absolute;
+    bottom:-20px;
+    left: -7%;
+    z-index: -1;
+}
+.dots-decor{
+    position: absolute;
+    top:3.5rem;
+    right: -3rem;
+    z-index: -1;
+}
+
+/* Laptop dimensions */
+@media screen and (max-width:1024px){
+    form{
+        width: 70%;
+    }
+}
+/* Phone dimensions */
+@media screen and (max-width: 425px){
+    form{
+        gap: 1rem;
+    }
+    form>:nth-child(1){
+        font-size: 1.313rem;
+    }
+    form>:nth-child(2){
+        font-size: 1.125rem;
+    }
+    input{
+        font-size:1.125rem;
+    }
+    .f-button{
+        padding:0.7rem;
+        width: 50%;
+    }
+}

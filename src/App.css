@@ -1,0 +1,32 @@
+:root
+{
+  --purple: #7F5AF0;
+  --white: #FFFFFE;
+  --black: #16161A ;
+  --gradient:linear-gradient(90deg, rgba(90,184,240,1) 0%, rgba(90,103,240,1) 51%, rgba(90,234,240,1) 100%);
+}
+
+.App {
+  overflow: hidden;
+  padding: 0.5rem 3.5rem;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.button{
+  background-color: var(--purple);
+  color: var(--white);
+  border: none;
+  border-radius: 20px;
+  
+}
+@media screen and (max-width: 1024px) {
+  .App{
+    padding:0.5rem 2rem;
+  }
+}
+@media screen and (max-width: 425px){
+  .App{
+    padding: 0.5rem 1rem;
+  }
+}

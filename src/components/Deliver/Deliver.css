@@ -1,0 +1,62 @@
+.deliver{
+    margin: 20rem 0;
+    background-image: url('../../assets/images/planes.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.deliver-top{
+    display: flex;
+    flex-direction: column;
+}
+.deliver-top>:nth-child(1){
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.875rem;
+    background: var(--gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.deliver-top>:nth-child(2){
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 634;
+    font-size: 2.188rem;
+    color: #FFFFFE;
+}
+.deliver-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+}
+/* Tablet styleing */
+@media screen and (max-width: 768px) {
+    .deliver{
+        margin: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        border: 1px solid red;
+        background-image: url(../../assets/images/planes_phone.png);
+        background-size: 100%;
+        background-repeat: repeat-y;
+    }
+    .deliver-bottom{
+        flex-direction: column;
+
+    }
+
+}
+
+/* Phone styleing */
+@media screen and (max-width: 425px){
+    .deliver-top>:nth-child(1){
+        font-size:0.938rem;
+    }
+    .deliver-top>:nth-child(2){
+        font-size: 1.313rem;
+    }
+}
